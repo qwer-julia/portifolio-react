@@ -1,19 +1,24 @@
 import styled from "styled-components"
 
 const Opcoes = styled.ul`
+    margin: 0 auto;
     display: flex;
-    list-style: none;
+    justify-content: center;
 `
 const Opcao = styled.li`
-    font-size: 16px;
+    font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     height: 100%;
-    padding: 0 5px;
+    padding: 0 30px;
     cursor: pointer;
     min-width: 120px;
+
+    &:hover{
+        color: #D2A27A;
+    }
 `
 
 function OpcoesNavbar() {
@@ -21,7 +26,7 @@ function OpcoesNavbar() {
     return (
         <Opcoes>
             {textoOpcoes.map((texto) => (
-                <Opcao><p>{texto}</p></Opcao>
+                <Opcao><p><a href={`#${texto.replace(/\s/g, '')}`}>{texto}</a></p></Opcao>
             ))} 
         </Opcoes>
     )

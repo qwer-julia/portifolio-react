@@ -1,0 +1,39 @@
+{
+    "projects": [
+        {
+            "projectName": "Fokus",
+            "projectRepo": "https://github.com/qwer-julia/fokus",
+            "projectUrl": "",
+            "status": "Concluído",
+            "projectDescription": "Projeto Fokus realizado durante o curso JavaScript: manipulando elementos no DOM da Alura."
+        },
+        {
+            "projectName": "Midi",
+            "projectRepo": "https://github.com/qwer-julia/Midi",
+            "projectUrl": "",
+            "status": "Concluído",
+            "projectDescription": "Projeto feito durante a realização do curso JavaScript para Web: Crie páginas dinâmicas da Alura."
+        },
+        {
+            "projectName": "Tamagochi2",
+            "projectRepo": "https://github.com/qwer-julia/Tamagochi2",
+            "projectUrl": "",
+            "status": "Em aprimoramento",
+            "projectDescription": "About Tamagotchi da Kuromi é um projeto simples porém divertido inspirado nos populares pets virtuais dos anos 90, com um toque sombrio e fofo da personagem Kuromi, da Sanrio. Desenvolvido com HTML, CSS e JavaScript, este projeto permite que os usuários cuidem de sua própria Kuromi virtual."
+        },
+        {
+            "projectName": "Alura Books",
+            "projectRepo": "https://github.com/qwer-julia/alura-books",
+            "projectUrl": "",
+            "status": "Em andamento",
+            "projectDescription": "Esse projeto foi feito durante a realizacao do curso REACT: COMECE SEU PROJETO FULL STACK na plataforma Alura. Nessa primeira etapa do projeto, construimos a interface de um site de livros que permite ao usuário descobrir novos livros para ler e futuramente permitira salvar seus livros favoritos."
+        },
+        {
+            "projectName": "Portifólio",
+            "projectRepo": "https://github.com/qwer-julia/Portifolio",
+            "projectUrl": "",
+            "status": "Concluído",
+            "projectDescription": "Esse foi meu primeiro portifólio, apenas com HTML, CSS e JS"
+        }
+    ]
+}

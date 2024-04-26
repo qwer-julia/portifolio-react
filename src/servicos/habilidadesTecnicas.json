@@ -1,0 +1,21 @@
+[
+    {
+        "nome": "HMTL, CSS e JavaScript",
+        "descricao": "Tenho experiência sólida em desenvolvimento front-end, utilizando HTML, CSS e JavaScript. Essas habilidades me permitem criar interfaces web interativas e visualmente atraentes.",
+        "icone": "html"
+    },
+    {
+        "nome": "Node.JS",
+        "descricao": "Apesar de ter tido pouca experiência profissional com Node.JS busquei aprimorar essa habilidade com cursos externos e desenvolvimento de aplicações para portifólio.",
+        "icone": "node"},
+    {
+        "nome": "Ruby on rails",
+        "descricao": "Além disso, possuo conhecimento em Ruby on Rails, o que me permite desenvolver aplicativos web robustos e eficientes, além de integrar sistemas e APIs de forma eficaz.",
+        "icone": "rails"
+    },
+    {
+        "nome": "React",
+        "descricao": "Apesar de ter tido pouca experiência profissional com Node.JS busquei aprimorar essa habilidade com cursos externos e desenvolvimento de aplicações para portifólio (inclusive esse site aqui, estou adorando!)",
+        "icone": "react"
+    }
+]

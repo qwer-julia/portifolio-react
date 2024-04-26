@@ -2,25 +2,50 @@ import './App.css';
 import Navbar from './componentes/Navbar'
 import styled from 'styled-components';
 import Apresentacao from './componentes/Apresentacao'
-const AppContainer = styled.div`
+import SobreMim from './componentes/SobreMim';
+import Experiencia from './componentes/Experiencia'
+import Certificacoes from './componentes/Certificacoes'
+import ProjetosRecentes from './componentes/ProjetosRecentes'
+import HabilidadesTecnicas from './componentes/HabilidadesTecnicas'
+import Contato from './componentes/Contato';
 
+const AppContainer = styled.div`
+a{
+  text-decoration: none;
+}
+
+a:link {
+  color: #F8E1CF;
+}	
+
+a:visited {
+  color: #F8E1CF;
+}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #763F21;
+  border-radius: 10px;
+}
 `
-const Conteudo = styled.div`
-  margin: 0 auto;
-  max-width: 1000px;
-  padding-top: 20px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 50px;
-`
+
+let lista = []
 
 function App() {
   return (
     <AppContainer>
       <Navbar/>
-      <Conteudo>
-        <Apresentacao/>
-      </Conteudo>
+        <Apresentacao/> 
+        <SobreMim/>
+        <Experiencia/>
+        <Certificacoes/>
+        <ProjetosRecentes/>
+        <HabilidadesTecnicas/>
+        <Contato/>
     </AppContainer>
   );
 }
