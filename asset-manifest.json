@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portifolio-react/static/css/main.76f3fe54.css",
+    "main.js": "/portifolio-react/static/js/main.19f405f1.js",
+    "static/js/453.0befe497.chunk.js": "/portifolio-react/static/js/453.0befe497.chunk.js",
+    "static/media/pixels.ttf": "/portifolio-react/static/media/pixels.2e5d04eb2cbd829a61b1.ttf",
+    "static/media/Pixeled.ttf": "/portifolio-react/static/media/Pixeled.0466f3371bc9b28affef.ttf",
+    "static/media/avatar.png": "/portifolio-react/static/media/avatar.fc626d2b4a969ec80627.png",
+    "static/media/htmlIcon.svg": "/portifolio-react/static/media/htmlIcon.9796111c06f736a2ad39f7dc479fc691.svg",
+    "static/media/railsIcon.svg": "/portifolio-react/static/media/railsIcon.9cd295b04777ca4b27e68b419a21d8a3.svg",
+    "static/media/nodeIcon.svg": "/portifolio-react/static/media/nodeIcon.0d5706b1ee8be7a8f84ce3a2137c38dc.svg",
+    "static/media/reactIcon.svg": "/portifolio-react/static/media/reactIcon.399cd317e2290d362f5e0a1ff61dce77.svg",
+    "index.html": "/portifolio-react/index.html",
+    "main.76f3fe54.css.map": "/portifolio-react/static/css/main.76f3fe54.css.map",
+    "main.19f405f1.js.map": "/portifolio-react/static/js/main.19f405f1.js.map",
+    "453.0befe497.chunk.js.map": "/portifolio-react/static/js/453.0befe497.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76f3fe54.css",
+    "static/js/main.19f405f1.js"
+  ]
+}
