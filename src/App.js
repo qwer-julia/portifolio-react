@@ -22,7 +22,6 @@ a:visited {
   color: #F8E1CF;
 }
 
-
 ::-webkit-scrollbar {
   width: 5px;
 }
