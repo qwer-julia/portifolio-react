@@ -47,8 +47,10 @@ function Logo(icone){
           return LogoReact
         case "rails":
           return LogoRails
-          case "html":
+        case "html":
           return LogoHtml
+        default:
+            return ""
       }
 }
 

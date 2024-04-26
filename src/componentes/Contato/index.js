@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { Section } from "../Section";
 import { Titulo } from "../Titulo";
-import { Subtitulo } from "../Subtitulo";
 
 const ContatoContainer = styled.div`
     margin: 0 auto;

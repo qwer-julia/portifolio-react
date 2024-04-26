@@ -32,8 +32,6 @@ a:visited {
 }
 `
 
-let lista = []
-
 function App() {
   return (
     <AppContainer>
