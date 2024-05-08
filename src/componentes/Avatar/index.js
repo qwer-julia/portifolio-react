@@ -11,11 +11,11 @@ const AvatarImage = styled.img`
 
     @keyframes avatar {
         0% {
-            top: 10px;
+            top: 0.6rem;
         }
         
         100% {
-            top: -10px;
+            top: -0.6rem;
         }
     }
     

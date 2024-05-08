@@ -6,18 +6,18 @@ import { Subtitulo } from "../Subtitulo";
 
 const ExperienciasContainer = styled.div`
     margin: 0 auto;
-    max-width: 1000px;
-    padding-top: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 50px;
+    max-width: 62.5rem;
+    padding-top: 1.85rem;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    padding-bottom: 3rem;
 `
 
 const ExperienciaContainer = styled.div`
-    padding: 20px;
+    padding: 1.25rem;
     border: #763F21;
     border-style: dashed;
-    margin: 20px 0;
+    margin: 1.25rem 0;
 `
 
 function Experiencia(){

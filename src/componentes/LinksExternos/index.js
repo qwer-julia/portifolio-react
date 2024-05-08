@@ -4,7 +4,7 @@ import {Botao} from "../Botao"
 const LinksExternosContainer = styled.div`
     display: flex;
     gap: 1rem;
-    margin: 20px 0;
+    margin: 1.25rem 0;
 `
 
 function LinksExternos() {

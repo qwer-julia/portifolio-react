@@ -6,15 +6,15 @@ const Opcoes = styled.ul`
     justify-content: center;
 `
 const Opcao = styled.li`
-    font-size: 30px;
+    font-size: 1.85rem;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     height: 100%;
-    padding: 0 30px;
+    padding: 0 1.85rem;
     cursor: pointer;
-    min-width: 120px;
+    min-width: 11.25rem;
 
     &:hover{
         color: #D2A27A;

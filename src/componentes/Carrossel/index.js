@@ -5,7 +5,7 @@ import { SwiperSlide } from 'swiper/react';
 import CardCertificacao from '../CardCertificacao'
 
 const CarroselContainer = styled.div`
-    padding: 30px 0px;
+    padding: 1.85rem 0rem;
     margin: 0 auto;
     overflow-x: auto;
     display: flex;

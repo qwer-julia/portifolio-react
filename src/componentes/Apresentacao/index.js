@@ -9,9 +9,9 @@ import Typewriter from 'typewriter-effect';
 const ApresentacaoContainer = styled.div`
     display: flex;
     align-self: auto;
-    padding: 60px;
+    padding: 3.75rem;
     margin: auto;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin: auto auto;
 `
 
@@ -23,11 +23,11 @@ const Main = styled.main`
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    max-width: 1000px;
-    padding-top: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 50px;
+    max-width: 62.5rem;
+    padding-top: 1.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 3rem;
 `
 
 function Apresentacao(){
