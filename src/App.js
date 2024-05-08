@@ -28,7 +28,7 @@ a:visited {
 
 ::-webkit-scrollbar-thumb {
   background-color: #763F21;
-  border-radius: 0.6rem;
+  border-radius: 10px;
 }
 `
 

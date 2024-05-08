@@ -4,7 +4,12 @@ import {Botao} from "../Botao"
 const LinksExternosContainer = styled.div`
     display: flex;
     gap: 1rem;
-    margin: 1.25rem 0;
+    justify-content: left;
+    padding: 0 3.75rem;
+
+    @media (max-width: 870px){
+        justify-content: center;
+    }
 `
 
 function LinksExternos() {

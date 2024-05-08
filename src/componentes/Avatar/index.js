@@ -5,7 +5,7 @@ import avatar from "../../images/avatar.png"
 const AvatarImage = styled.img`
     display: block;
     margin: auto;
-    height:  ${props => props.tamanho || '23rem'};;
+    width:  ${props => props.tamanho || '50%'};;
     position: relative;
     animation: 2.1s linear 0s infinite alternate-reverse none running avatar;
 

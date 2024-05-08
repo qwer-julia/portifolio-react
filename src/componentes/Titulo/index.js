@@ -9,4 +9,8 @@ export const Titulo = styled.h2`
     font-weight: normal;
     margin: 0.1rem auto;
     padding: 1.85rem 0;
+
+    @media (max-width: 860px){
+        text-align: center;
+    }
 `

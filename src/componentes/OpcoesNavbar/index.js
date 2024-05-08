@@ -15,7 +15,13 @@ const Opcao = styled.li`
     padding: 0 1.85rem;
     cursor: pointer;
     min-width: 11.25rem;
-
+    
+    @media (max-width: 1350px){
+        font-size: 1.2rem;
+        padding: 0 0.6rem;
+        min-width: 5rem;
+    }
+    
     &:hover{
         color: #D2A27A;
     }

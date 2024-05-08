@@ -7,13 +7,14 @@ interface SliderProps {
     children: ReactNode;
 }
 
-function Slider({ settings, children }: SliderProps) {
+function Slider({children }: SliderProps) {
     return (
-        <Swiper {...settings}>
+        <Swiper spaceBetween={50} slidesPerView={1} breakpoints={{1010: {slidesPerView: 3}, 680: {slidesPerView: 2}}}>
             {children}
+            
         </Swiper>
     )
 
-}
+} 
 
 export default Slider
