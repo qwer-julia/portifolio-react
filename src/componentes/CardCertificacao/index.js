@@ -9,7 +9,7 @@ const CardContainer = styled.div`
     height: 25rem;
     padding: 0.6rem;
 
-    @media (max-width: 580px){
+    @media (max-width: 670px){
         padding: 0.5rem;
         width: 12rem;
     }
@@ -22,7 +22,7 @@ const TituloCertificado = styled.h1`
     font-weight: 200;
     padding-bottom: 1.25rem;
 
-    @media (max-width: 580px){
+    @media (max-width: 670px){
         font-size: 0.7rem};
     }
 `
@@ -31,7 +31,7 @@ const Informacao = styled.p`
     font-weight: bold;  
     font-size: 1.1rem;
 
-    @media (max-width: 580px){
+    @media (max-width: 670px){
         font-size: 1rem;
         display: block;
         text-align: center;
@@ -41,7 +41,7 @@ const Informacao = styled.p`
 const Indice = styled.span`
     color: #D2A27A;
     padding: 0 0.6rem;
-    @media (max-width: 580px){
+    @media (max-width: 670px){
         display: block;
     }
 `

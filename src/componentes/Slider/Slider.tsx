@@ -9,7 +9,7 @@ interface SliderProps {
 
 function Slider({children }: SliderProps) {
     return (
-        <Swiper spaceBetween={50} slidesPerView={1} breakpoints={{1010: {slidesPerView: 3}, 680: {slidesPerView: 2}}}>
+        <Swiper spaceBetween={50} slidesPerView={1} breakpoints={{1010: {slidesPerView: 3}, 550: {slidesPerView: 2}}}>
             {children}
             
         </Swiper>
