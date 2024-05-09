@@ -19,7 +19,7 @@ const AvatarImage = styled.img`
         }
     }
 
-    @media (max-width: 580px){
+    @media (max-width: 680px){
         padding: 4rem 0;
     }
     
