@@ -5,11 +5,11 @@ import ListaProjetos from "../ListaProjetos";
 
 const ProjetosContainer = styled.div`
     margin: 0 auto;
-    max-width: 1000px;
-    padding-top: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 50px;
+    max-width: 62.5rem;
+    padding-top: 1.25rem;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    padding-bottom: 3rem;
 `
 
 function ProjetosRecentes(){

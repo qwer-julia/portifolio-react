@@ -2,5 +2,7 @@ import styled from "styled-components"
 
 export const Section = styled.section`
     background-color: ${props => props.cor };
-    padding: 50px 0;
+    padding: 3rem 0;
+    overflow-wrap: break-word;
+
 `

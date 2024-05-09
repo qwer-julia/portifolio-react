@@ -23,12 +23,12 @@ a:visited {
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 0.3rem;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: #763F21;
-  border-radius: 10px;
+  border-radius: 0.6rem;
 }
 `
 

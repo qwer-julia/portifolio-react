@@ -5,25 +5,23 @@ import { SwiperSlide } from 'swiper/react';
 import CardCertificacao from '../CardCertificacao'
 
 const CarroselContainer = styled.div`
-    padding: 30px 0px;
-    margin: 0 auto;
+    padding: 1.85rem 0rem;
     overflow-x: auto;
     display: flex;
-`
 
-const settings = {
-    spaceBetween: 50,
-    slidesPerView: 3
-}
+    @media (max-width: 680px){
+        margin: 0 20%;
+    }
+`
 
 function Carrossel() {
     return (
         <CarroselContainer>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style={{width:"100px",    height:"100px", margin: "auto 0"}}>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style={{width:"100px", height:"100px", margin: "auto 0"}}>
                 <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
             </svg>
 
-            <Slider settings={settings}>
+            <Slider>
                 {
                     certificados.map((certificado) =>
                         <SwiperSlide>
@@ -32,7 +30,7 @@ function Carrossel() {
                     )
                 }
             </Slider>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style={{width:"100px",    height:"100px    ", margin: "auto 0"}}>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style={{width:"100px", height:"100px", margin: "auto 0"}}>
                 <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
             </svg>
 

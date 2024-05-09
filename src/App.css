@@ -1,4 +1,10 @@
 
+html, 
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
 body{
     background-color: #D8C2A7;
     color: #763F21;

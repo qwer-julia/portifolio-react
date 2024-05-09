@@ -4,16 +4,23 @@ import { Titulo } from "../Titulo";
 
 const ContatoContainer = styled.div`
     margin: 0 auto;
-    max-width: 1000px;
-    padding-top: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 50px;
+    max-width: 62.5rem;
+    padding-top: 1.25rem;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    padding-bottom: 3rem;
+    @media (max-width: 850px){
+        text-align: center;
+    }
 `
 
 const Email = styled.strong`
     font-family: 'pixelFontB';
-    font-size: 30px;
+    font-size: 1.8rem;
+
+    @media (max-width: 580px){
+        font-size: ${props => props.tamanho || '1rem'};
+    }
 `
 function Contato(){
     return(

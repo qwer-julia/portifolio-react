@@ -23,7 +23,7 @@ const LogoImg = styled.img`
     min-width: 15%;
     -webkit-box-align: center;
     align-items: center;
-    padding: 20px;
+    padding: 1.25rem;
 
 `
 

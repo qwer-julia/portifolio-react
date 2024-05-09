@@ -9,25 +9,33 @@ import Typewriter from 'typewriter-effect';
 const ApresentacaoContainer = styled.div`
     display: flex;
     align-self: auto;
-    padding: 60px;
-    margin: auto;
-    font-size: 20px;
+    padding: 3.75rem;
+    font-size: 1.25rem;
     margin: auto auto;
+    justify-content: space-between;
+    
+    @media (max-width: 870px){
+        flex-direction: column;
+        padding: 1rem;
+    }
 `
 
 const Main = styled.main`
-    height: 80vh;
     align-items: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    max-width: 1000px;
-    padding-top: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 50px;
+    max-width: 62.5rem;
+    padding-top: 1.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 3rem;
+
+    @media (max-width: 870px){
+        padding-top: 0;
+    }
 `
 
 function Apresentacao(){
@@ -35,7 +43,7 @@ function Apresentacao(){
         <Main>
             <Section id="apresentacao">
                 <ApresentacaoContainer>
-                    <Subtitulo>
+                    <Subtitulo tamanho='50%'>
                         Oi, eu sou
                         <Titulo alinhamento="left"> Júlia Fonseca.</Titulo>
                         <Typewriter
@@ -47,10 +55,10 @@ function Apresentacao(){
 
                             }}
                         />
-                        <LinksExternos/>
                     </Subtitulo>
                     <Avatar/>
                 </ApresentacaoContainer>
+                <LinksExternos/>
             </Section>
         </Main>
     )

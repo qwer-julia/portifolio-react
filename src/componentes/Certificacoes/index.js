@@ -8,11 +8,11 @@ import animationData from '../../assets/pacman.json'
 
 const CertificacoesContainer = styled.div`
     margin: 0 auto;
-    max-width: 1000px;
-    padding-top: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 50px;
+    max-width: 62.5rem;
+    padding-top: 1.25rem;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    padding-bottom: 3rem;
 `
 const defaultOptions = {
     autoplay: true,
@@ -42,8 +42,8 @@ function Certificacoes() {
                     width={400}
                     style={{
                         overflow: "hidden",
-                        height: "200px",
-                        marginTop: "-60px"
+                        height: "12.5rem",
+                        marginTop: "-3.75rem"
                     }}
                 />
             </CertificacoesContainer>
