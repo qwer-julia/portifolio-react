@@ -9,8 +9,10 @@ const CarroselContainer = styled.div`
     overflow-x: auto;
     display: flex;
 
-    @media (max-width: 680px){
-        margin: 0 20%;
+    @media (max-width: 500px){
+        margin: 0 15%;
+        justify-content: center;
+        width: 100%
     }
 `
 
