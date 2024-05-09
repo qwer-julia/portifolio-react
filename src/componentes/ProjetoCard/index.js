@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Paragrafo } from "../Paragrafo";
 import {Link} from "../Link"
+
 const Card = styled.div`
     background-color: #F8E1CF;
     padding: 1.25rem;
@@ -12,6 +13,10 @@ const Card = styled.div`
     height: 17.5rem;
     width: 23.75rem;
     overflow-y: scroll;
+
+    @media (max-width: 580px){
+        text-align: center;
+    }
 `
 
 const TituloProjeto = styled.strong`

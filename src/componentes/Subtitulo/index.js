@@ -10,4 +10,8 @@ export const Subtitulo = styled.section`
         text-align: center;
         padding: 0 0 4rem 0;
     }
+
+    @media (max-width: 850px){
+        padding: 2rem 0 0 0;
+    }
 `

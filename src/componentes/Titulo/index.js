@@ -13,4 +13,8 @@ export const Titulo = styled.h2`
     @media (max-width: 860px){
         text-align: center;
     }
+
+    @media (max-width: 580px){
+        font-size: ${props => props.tamanho || '3rem'};
+    }
 `

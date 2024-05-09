@@ -1,9 +1,12 @@
 import styled from "styled-components";
 import projetos from '../../servicos/projetos.json';
 import ProjetoCard from "../ProjetoCard";
+
 const ListaContainer = styled.ul`
   display: flex;
   flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0 2rem;
 `
 
 function ListaProjetos() {

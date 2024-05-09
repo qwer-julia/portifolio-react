@@ -9,11 +9,18 @@ const ContatoContainer = styled.div`
     padding-left: 0.9rem;
     padding-right: 0.9rem;
     padding-bottom: 3rem;
+    @media (max-width: 850px){
+        text-align: center;
+    }
 `
 
 const Email = styled.strong`
     font-family: 'pixelFontB';
-    font-size: 30px;
+    font-size: 1.8rem;
+
+    @media (max-width: 580px){
+        font-size: ${props => props.tamanho || '1rem'};
+    }
 `
 function Contato(){
     return(
